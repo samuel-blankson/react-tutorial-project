@@ -1,5 +1,6 @@
 import '../../App.css';
 import Cards from '../Cards';
+import Footer from '../Footer';
 import GeminiSection from '../GeminiSection';
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
         <>
             <GeminiSection />
             <Cards />
+           <Footer/>
         </>
     )
 }
